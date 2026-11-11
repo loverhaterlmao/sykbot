@@ -15,6 +15,20 @@
 
 <br>
 
+<!-- v2:a -->
+<table>
+<tr>
+<td width="150" align="center"><img src="./assets/logo.svg" width="120" alt="Sykbot"></td>
+<td>
+<b>Sykbot for Windows</b>: a small window onto sykbot.com with its own icon, its own start screen, and a frame that takes the app's colour.<br><br><a href="https://github.com/loverhaterlmao/sykbot/releases/latest"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-for%20Windows-e0364f?style=for-the-badge&labelColor=12161b"></a>
+<br><br><b>On a phone:</b> open <a href="https://sykbot.com">sykbot.com</a> in your browser and choose <i>Add to Home Screen</i> (iPhone: the Share button; Android: the menu, then <i>Install app</i>).
+</td>
+</tr>
+</table>
+<!-- /v2:a -->
+
+
+
 ## What it is
 
 Moderation, verification, anti-raid, tickets and logging, all set up inside Discord. Member data stays in Discord unless you switch on an optional check.
@@ -25,6 +39,28 @@ Docs: [sickenn.info](https://sickenn.info) · Your account: [sicken.me](https://
 
 Sykbot is made by Sick & Nexra Studios (S&NS). Its source code is closed. This repository is where to find it, how
 to get help, and where to report problems.
+
+<!-- v2:b -->
+## The desktop app
+
+<img src="./assets/app.svg" alt="Sykbot for Windows on its start screen" width="100%">
+
+- **Getting it:** [the latest release](https://github.com/loverhaterlmao/sykbot/releases/latest). Unzip it and open `Sykbot.exe`. There is nothing to install.
+- **What it is:** a window onto [sykbot.com](https://sykbot.com). Your work stays in your account on the site; the app keeps only your sign-in, in a folder beside itself.
+- **What it needs:** Windows 10 or 11. It uses the WebView2 runtime, which Windows 11 has built in.
+- **The warning Windows shows:** "unknown publisher", the first time. The app is not code-signed yet. Check the file's
+  SHA-256 against the one in the release notes if you want to be sure it is ours.
+
+## Built with
+
+<p><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169e1?style=flat-square&labelColor=12161b"> <img alt="Redis" src="https://img.shields.io/badge/Redis-ff4438?style=flat-square&labelColor=12161b"> <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ed?style=flat-square&labelColor=12161b"></p>
+
+The source is closed, so GitHub's own language bar has nothing to count here. This is what Sykbot is written in and runs on.
+
+## The small print
+
+[Terms of use](TERMS.md) · [Privacy](PRIVACY.md) · [Acceptable use](ACCEPTABLE_USE.md) · [Licence](LICENSE)
+<!-- /v2:b -->
 
 ## In this repository
 
